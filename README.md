@@ -6,8 +6,8 @@ IMPORT DATABASE:
 1. Run Microsoft SSMS
 2. Klik kanan pada folder Database di SMSS
 3. Klik Import Data-Tier Application
-4. Lalu pada setup import, bagian import setting, browse dan pilih file Q-BISNIS.bacpac di repository Phoenix
-5. Lalu pada bagian Database Setting, atur nama database menjadi Q-Bisnis
+4. Lalu pada setup import, bagian import setting, browse dan pilih file QBISNIS.bacpac di repository Phoenix
+5. Lalu pada bagian Database Setting, atur nama database menjadi QBisnis
 6. Lalu next hingga proses import data selesai
 
 SETUP APLIKASI
@@ -30,3 +30,4 @@ B. Ubah ConnectionString
 3. Ganti ConnectionString pada class FixedCost dan VariableCost dengan Connection String sesuai letak database QBisnis yang sudah di import sebelumnya.
 Example = "Data Source=[Nama Server Laptop];Initial Catalog=Q-Bisnis;Integrated Security=True"
 2. Build project tersebut dan jalankan aplikasi melalui bin -> Debug -> QBisnis.exe atau langsung jalankan di Visual Studio 2019.
+
